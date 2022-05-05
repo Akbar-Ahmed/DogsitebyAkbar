@@ -1,0 +1,15 @@
+<?php
+//get data from form  
+
+$name = $_POST['name'];
+$email= $_POST['email'];
+$message= $_POST['message'];
+$to = "akbarahmed.all99@gmail.com";
+$subject = "Mail From Dogsite";
+$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
+$headers = "From: noreply@Dogsite.com" . "\r\n" .
+if($email!=NULL){
+    mail($to,$subject,$txt,$headers);
+}
+
+?>
