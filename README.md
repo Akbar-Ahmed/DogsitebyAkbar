@@ -1,2 +1,3 @@
-# DogsitebyAkbar
-A 3 Page website on Dogs
+
+A website on Dogs. 
+It contains Home, About and Contact page.
